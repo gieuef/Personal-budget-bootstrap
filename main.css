@@ -6,30 +6,21 @@ body
 	font-family: 'Open Sans', sans-serif;
 }
 
-.wrapper
+h1
 {
-	width: 100%;
+		font-size: 58px;
 }
 
-.header
+.footer
 {
-	width:100%;
-	padding: 40px 0;
+	text-align: center;
+	color: #222222;
 }
 
-.logo
+.square
 {
-	width: 450px;
-	font-size: 58px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align:center;
-}
-
-.container
-{
-	background-color: white;
-	width: 400px;
+	/*width: 50%;*/
+	background-color: #f9f9f0;
 	padding: 50px;
 	margin-left: auto;
 	margin-right: auto;
@@ -39,18 +30,10 @@ body
 	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 }
 
-.footer
-{
-	text-align: center;
-	color: #222222;
-	padding: 30px;
-}
-
 input[type=text],
 input[type=password],
 input[type=mail]
 {
-	width: 400px;
 	background-color: #efefef;
 	color: #666;
 	border: 2px solid #ddd;
@@ -76,13 +59,11 @@ input[type=mail]:focus
 
 input[type=submit]
 {
-	width: 300px;
 	background-color: #e8c264;
 	font-size:20px;
 	color: white;
 	padding: 15px 10px;
 	margin-top: 20px;
-	margin-left:50px;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
@@ -136,78 +117,4 @@ input:-ms-input-placeholder
 input:focus:-ms-input-placeholder
 {
     color: #428C42;
-}
-
-.square
-{
-	float: left;
-	width: 17%;
-	background-color: #ebcb7a;
-	text-align: center;
-	margin: 18px;
-	color: #fff;
-	border: 1px solid #fff;
-	font-size: 30px;
-	border-radius: 5px;
-}
-
-.square:hover
-{
-	background-color: #daba60;
-	cursor:pointer;
-}	
-	
-.formfield
-{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	width:50%;
-	background-color:#f8eed3;
-	margin-bottom:30px;
-	border-radius: 5px;	
-	padding-bottom:10px;
-}
-
-h2
-{
-	color:#222222;
-	text-align:center;
-}
-
-.row
-{
-	margin: 20px 50px;
-}
-
-#komentarz
-{
-	resize: none;
-}
-
-#sbrow
-{
-	width:auto;
-	background-color: #666666;
-	font-size:15px;
-	padding: 1px 1px;
-	margin-top: 1px;
-	margin-left: 1px;
-}
-
-.btn
-{
-	width: 100px;
-	background-color: #ebcb7a;
-	font-size:20px;
-	color: white;
-	padding: 15px 10px;
-	margin-top: 20px;
-	margin-left:30px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	letter-spacing: 2px;
-	outline: none;
-	
 }
